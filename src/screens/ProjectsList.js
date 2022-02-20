@@ -1,8 +1,8 @@
-import React from 'react'
-import { Text, View, StyleSheet, TouchableOpacity } from 'react-native'
+import React from 'react';
+import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 
 function ProjectsList(props) {
-  const { navigation } = props
+  const { navigation } = props;
   return (
     <View style={styles.container}>
       <Text style={styles.boldText}>Projects List</Text>
@@ -10,7 +10,7 @@ function ProjectsList(props) {
         <Text style={styles.boldText}>Go to Detail</Text>
       </TouchableOpacity>
     </View>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold'
   }
-})
+});
 
-export default ProjectsList
+export default ProjectsList;

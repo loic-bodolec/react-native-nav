@@ -1,8 +1,8 @@
-import React from 'react'
-import { createStackNavigator } from 'react-navigation-stack'
+import React from 'react';
+import { createStackNavigator } from 'react-navigation-stack';
 
-import ProjectsList from '../screens/ProjectsList'
-import ProjectDetail from '../screens/ProjectDetail'
+import ProjectsList from '../screens/ProjectsList';
+import ProjectDetail from '../screens/ProjectDetail';
 
 const MainStack = createStackNavigator(
   {
@@ -16,6 +16,6 @@ const MainStack = createStackNavigator(
   {
     initialRouteName: 'Projects'
   }
-)
+);
 
-export default MainStack
+export default MainStack;

@@ -1,12 +1,12 @@
-import React from 'react'
-import { Text, View, StyleSheet } from 'react-native'
+import React from 'react';
+import { Text, View, StyleSheet } from 'react-native';
 
 function ProjectDetail() {
   return (
     <View style={styles.container}>
       <Text style={styles.boldText}>Project Detail</Text>
     </View>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
@@ -21,6 +21,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold'
   }
-})
+});
 
-export default ProjectDetail
+export default ProjectDetail;

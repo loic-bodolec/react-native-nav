@@ -1,6 +1,6 @@
-import React from 'react'
-import { createAppContainer } from 'react-navigation'
+import React from 'react';
+import { createAppContainer } from 'react-navigation';
 
-import MainStack from './MainStackNavigator'
+import MainStack from './MainStackNavigator';
 
-export default createAppContainer(MainStack)
+export default createAppContainer(MainStack);
